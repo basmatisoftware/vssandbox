@@ -11,6 +11,11 @@ namespace BaseClassTester
         static void Main(string[] args)
         {
             Console.WriteLine("Base-Class Tester");
+            Player me = new Player("Fred", true, 4, false, 5, 50);
+            Monster fred = new Monster();
+            fred.Name = "Frederick the Fearsome";
+            fred.RewardXP = 4;
+            fred.RewardXP = 19;
         }
     }
 }
